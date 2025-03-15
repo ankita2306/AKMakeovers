@@ -1,7 +1,7 @@
-package com.vivah.makeUp_service.dto;
+package com.akMakeovers.makeUp_service.dto;
 
-import com.vivah.makeUp_service.entity.ArtistStatus;
-import com.vivah.makeUp_service.entity.User;
+import com.akMakeovers.makeUp_service.entity.ArtistStatus;
+import com.akMakeovers.makeUp_service.entity.User;
 import lombok.Data;
 import java.util.List;
 

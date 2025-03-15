@@ -1,6 +1,6 @@
-package com.vivah.makeUp_service.repository;
+package com.akMakeovers.makeUp_service.repository;
 
-import com.vivah.makeUp_service.entity.User;
+import com.akMakeovers.makeUp_service.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,13 +1,11 @@
-package com.vivah.makeUp_service.service;
+package com.akMakeovers.makeUp_service.service;
 
-import com.vivah.makeUp_service.dto.MakeupArtistRequest;
-
-import com.vivah.makeUp_service.entity.MakeupArtists;
-import com.vivah.makeUp_service.entity.Role;
-
-import com.vivah.makeUp_service.entity.User;
-import com.vivah.makeUp_service.repository.MakeupArtistRepository;
-import com.vivah.makeUp_service.repository.UserRepository;
+import com.akMakeovers.makeUp_service.dto.MakeupArtistRequest;
+import com.akMakeovers.makeUp_service.entity.MakeupArtists;
+import com.akMakeovers.makeUp_service.entity.Role;
+import com.akMakeovers.makeUp_service.entity.User;
+import com.akMakeovers.makeUp_service.repository.MakeupArtistRepository;
+import com.akMakeovers.makeUp_service.repository.UserRepository;
 
 import jakarta.transaction.Transactional;
 import org.slf4j.Logger;

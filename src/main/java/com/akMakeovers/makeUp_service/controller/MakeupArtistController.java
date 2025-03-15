@@ -1,8 +1,8 @@
-package com.vivah.makeUp_service.controller;
+package com.akMakeovers.makeUp_service.controller;
 
-import com.vivah.makeUp_service.dto.MakeupArtistRequest;
-import com.vivah.makeUp_service.entity.MakeupArtists;
-import com.vivah.makeUp_service.service.MakeupArtistService;
+import com.akMakeovers.makeUp_service.dto.MakeupArtistRequest;
+import com.akMakeovers.makeUp_service.entity.MakeupArtists;
+import com.akMakeovers.makeUp_service.service.MakeupArtistService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

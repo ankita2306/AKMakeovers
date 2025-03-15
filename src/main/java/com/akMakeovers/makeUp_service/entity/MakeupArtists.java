@@ -1,9 +1,8 @@
-package com.vivah.makeUp_service.entity;
+package com.akMakeovers.makeUp_service.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
-import lombok.experimental.SuperBuilder;
 
 import java.util.List;
 

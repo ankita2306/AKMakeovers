@@ -1,6 +1,6 @@
-package com.vivah.makeUp_service.dto;
+package com.akMakeovers.makeUp_service.dto;
 
-import com.vivah.makeUp_service.entity.Role;
+import com.akMakeovers.makeUp_service.entity.Role;
 import lombok.Data;
 
 @Data

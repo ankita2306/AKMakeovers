@@ -1,4 +1,4 @@
-package com.vivah.makeUp_service;
+package com.akMakeovers.makeUp_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
