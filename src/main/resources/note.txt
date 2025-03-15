@@ -1,0 +1,20 @@
+📌 Relationships in MySQL
+✅ users ↔ makeup_artist_profiles (One-to-One)
+✅ users ↔ bookings (One-to-Many)
+✅ bookings ↔ payments (One-to-One)
+
+
+
+
+TODOs
+🔹 Need error handling for missing artists?
+🔹 Add JWT security for role-based access?
+🔹 Integrate pagination & filtering for listing artists?
+
+ Want me to add JWT authentication for security?
+🔹 Need pagination & filters for artists and bookings?
+🔹 Integrate Razorpay/Stripe for payments?
+
+🔹 Need JWT security implemented in AuthService?
+🔹 Want role-based access for Admin vs. Users?
+🔹 Integrate OAuth2 (Google, Facebook login)?
