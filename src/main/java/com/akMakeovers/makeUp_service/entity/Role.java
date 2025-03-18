@@ -4,4 +4,5 @@ public enum Role {
     CLIENT,
     MAKEUP_ARTIST,
     ADMIN
+    //etc
 }

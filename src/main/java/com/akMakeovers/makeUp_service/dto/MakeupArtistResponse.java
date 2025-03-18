@@ -2,10 +2,12 @@ package com.akMakeovers.makeUp_service.dto;
 
 import com.akMakeovers.makeUp_service.entity.ArtistStatus;
 import com.akMakeovers.makeUp_service.entity.User;
+import lombok.Builder;
 import lombok.Data;
 import java.util.List;
 
 @Data
+@Builder
 public class MakeupArtistResponse extends UserResponse {
     private User user;
     private String bio;

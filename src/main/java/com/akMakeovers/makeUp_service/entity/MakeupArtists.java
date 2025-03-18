@@ -27,7 +27,6 @@ public class MakeupArtists {
     @Column(nullable = false, unique = true, length = 12)
     private String adharNum;
 
-
     @Column(nullable = false)
     private Integer experience; // In years
 

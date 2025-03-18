@@ -11,4 +11,8 @@ public interface MakeupArtistService {
     List<MakeupArtists> getAllMakeupArtists();
 
     MakeupArtists createMakeupArtist(MakeupArtistRequest artistRequest);
+
+    MakeupArtists getArtistById(Long id);
+
+    MakeupArtists updateArtist(Long id, MakeupArtists updatedArtist);
 }

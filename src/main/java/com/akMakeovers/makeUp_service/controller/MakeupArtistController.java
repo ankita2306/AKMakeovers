@@ -1,6 +1,7 @@
 package com.akMakeovers.makeUp_service.controller;
 
 import com.akMakeovers.makeUp_service.dto.MakeupArtistRequest;
+import com.akMakeovers.makeUp_service.dto.MakeupArtistResponse;
 import com.akMakeovers.makeUp_service.entity.MakeupArtists;
 import com.akMakeovers.makeUp_service.service.MakeupArtistService;
 import jakarta.validation.Valid;
@@ -35,4 +36,18 @@ public class MakeupArtistController {
     public List<MakeupArtistDTO> getArtistsByExpertise(@RequestParam String expertise) {
         return makeupArtistService.getArtistsByExpertise(expertise);
     }*/
+
+    @GetMapping("/{id}")
+    public ResponseEntity<MakeupArtists> getArtistById(@PathVariable Long id) {
+        MakeupArtists artist = makeupArtistService.getArtistById(id);
+        return ResponseEntity.ok(artist);
+    }
+
+    @PutMapping("/update/{id}")    //not tested
+    public ResponseEntity<MakeupArtists> updateArtist(
+            @PathVariable Long id,
+            @RequestBody MakeupArtists updatedArtist) {
+        MakeupArtists updated = makeupArtistService.updateArtist(id, updatedArtist);
+        return ResponseEntity.ok(updated);
+    }
 }
